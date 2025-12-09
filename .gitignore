@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# IDE settings (optional but good)
+.vscode/
+.idea/
+
+# Spark/Java logs
+derby.log
+metastore_db/
+spark-warehouse/
+checkpoint/
+
+# Note: We are NOT ignoring the DB file because you specifically want to upload it.
+# Usually, we ignore *.db, but for this portfolio project, it's fine to keep it.
